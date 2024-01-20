@@ -15,7 +15,7 @@ body{
   border-radius: 6px;
 }
 
-#top-nav a{
+.top-nav a{
   background: #FA2F69;
   text-decoration: none;
   padding: 3px;
@@ -23,7 +23,7 @@ body{
   border-radius: 20%;
 }
 
-#top-nav a:hover {
+.top-nav a:hover {
   background: #FA422F;
 }
 
