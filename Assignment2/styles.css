@@ -1,0 +1,38 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+  background: url(catBackground.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 800px;
+}
+
+
+#main {
+  background: rgb(250, 170, 47, 70%);
+  width: 70%;
+  margin: auto;
+  padding: 0 4px;
+  border-radius: 6px;
+}
+
+#top-nav a{
+  background: #FA2F69;
+  text-decoration: none;
+  padding: 3px;
+  color: white;
+  border-radius: 20%;
+}
+
+#top-nav a:hover {
+  background: #FA422F;
+}
+
+img{
+  width: 250px;
+  height: 250px;
+  padding: 12px;
+  margin: 12px;
+  border: 6px solid #FA2F69;
+  border-radius: 50%;
+
+}
