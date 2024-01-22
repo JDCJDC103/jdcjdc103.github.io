@@ -3,6 +3,10 @@
   background-color: azure;
 }
 
+#main_content {
+  background-color: aqua;
+}
+
 /*Navigation*/
 
 #main_nav li {
