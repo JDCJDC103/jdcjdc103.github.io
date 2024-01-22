@@ -1,0 +1,41 @@
+/*Structure */
+#main_header {
+  background-color: azure;
+}
+
+/*Navigation*/
+
+#main_nav li {
+  padding-left: 0;
+}
+
+#main_nav li {
+  padding: 7px;
+  list-style-type: none;
+  background-color: aqua;
+  border-bottom: azure;
+}
+
+#main_nav a {
+  text-decoration: none;
+  color: black;
+}
+/*Typography*/
+body{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#main_header h1 {
+  text-align: center;
+}
+
+/*Larger Resolution*/
+@media (min-width: 900px) {
+  #main_nav ul{
+    display: flex;
+  }
+
+  #main_nav li {
+    flex:1;
+  }
+}
