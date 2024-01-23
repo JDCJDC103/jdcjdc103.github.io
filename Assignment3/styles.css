@@ -5,7 +5,40 @@
 
 #main_content {
   background-color: aqua;
+  padding: 7px;
 }
+
+#maini_footer {
+  background-color: azure;
+}
+
+.collumn {
+  padding: 7px;
+  margin: 7px;
+  border-radius: 4px;
+}
+
+.coll1of2 {
+  background-color: azure;
+  padding: 7px;
+  margin: 7px;
+  border-radius: 4px;
+}
+
+.coll1of3, .coll2of3 {
+  background-color: azure;
+  padding: 7px;
+  margin: 7px;
+  border-radius: 4px;
+}
+
+.coll1of4, .coll2of4 {
+  background-color: azure;
+  padding: 7px;
+  margin: 7px;
+  border-radius: 4px;
+}
+
 
 /*Navigation*/
 
@@ -33,13 +66,25 @@ body{
   text-align: center;
 }
 
+#main_content h2 {
+  color: white;
+}
+
+#main_footer p {
+  text-align: center;
+}
+
 /*Larger Resolution*/
 @media (min-width: 900px) {
-  #main_nav ul{
+  #main_nav ul, .flex_container{
     display: flex;
   }
 
-  #main_nav li {
+  #main_nav li, .coll1of2, .coll1of3, .coll1of4  {
     flex:1;
   }
+}
+
+.coll2of3, .coll2of4 {
+  flex:2;
 }
