@@ -1,3 +1,5 @@
+/*Structure*/
+
 body{
   font-family: 'Times New Roman', Times, serif;
   background-repeat: no-repeat;
@@ -41,4 +43,29 @@ display: inline-block
 
 .dropdown:hover .assignmentsButton {
   background-color: gray;
+}
+
+.assignmentButton2 {
+  width: 300px;
+  height: 150px;
+}
+
+/*Typography*/
+.assignmentFont {
+  font-size: 15;
+}
+
+h2 {
+  text-align: center;
+  font-size: 60px;
+}
+
+/*Flexbox*/
+@media (min-width: 900px) {
+  #main{
+    display: flex;
+  }
+  .assignmentcolumns {
+    flex: 1;
+  }
 }
