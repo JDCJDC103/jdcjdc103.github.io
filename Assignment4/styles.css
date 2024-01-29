@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  background-color: white;
+}
+
+.row {
+  display: flex;
+  margin: 0;
+  height: 100px;
+  background-color: black;
+}
+
+.nav-column-right {
+  display: flex;
+  margin: 0;
+  height: 550px;
+  width: 160px;
+  margin-right: 80%;
+  background-color: gray;
+  color: white;
+  font-size: 8;
+  text-align: left;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.logo-margin {
+  margin-left: 15%;
+  margin-right: 15%;
+  
+}
+
+.sub-nav-column-right {
+  border-color: white;
+  border-bottom: 1px;
+  border-top: 1px;
+  display: flex;
+  height: 40px;
+  margin: 0;
+}
+
+.sub-row {
+  display: flex;
+  margin: 0;
+  height: 50px;
+  background-color: red;
+  margin-bottom: 4%;
+}
+
+.sub-column {
+  background-color: red;
+  width: 100%;
+  margin: 0;
+}
+.top-nav-row {
+  display: flex;
+  background-color: black;
+  color: white;
+}
+
+.top-nav-column {
+  flex: 50%;
+  text-align: right;
+  margin-right: 15%;
+  color: white;
+  overflow: hidden;
+}
+
+.column {
+  background-color: black;
+  width: 100%;
+  margin: 0;
+  
+}
+
+img{
+  width: 825;
+  height: 350;
+  margin-left: 50px;
+}
+
+.section {
+  display: block;
+  margin: 0;
+  
+}
+
+.information-column {
+  width: 825;
+  height: 350;
+  margin-left: 50px;
+  color: black;
+  font-size: 25px;
+}
+
+
+/*Typography*/
+
+.introduction {
+  font-size: 22px;
+}
+
+.top-nav-font {
+  font-size: 10px;
+}
+
+.right-nav-font {
+  font-size: 13px;
+}
+
+a{
+  color: white;
+}
+.nav-column {
+  font-size: 12px;
+}
+
+.nav-column h {
+  font-size: 10px;
+}
+a:link{
+  text-decoration: none;
+}
+
+.no-bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  overflow: hidden;
+  color: white;
+}
+
+.no-bullets li {
+  display: inline-block;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 600px){
+  .top-nav-column {
+    width: 100%;
+  }
+
+
+
+  .top-row {
+    margin: 0 auto;
+    width: 768px;
+  }
+}

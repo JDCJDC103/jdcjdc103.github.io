@@ -4,6 +4,7 @@ body{
   font-family: 'Times New Roman', Times, serif;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: lightgray;
 }
 
 .assignmentsButton{
@@ -45,19 +46,38 @@ display: inline-block
   background-color: gray;
 }
 
-.assignmentButton2 {
+.img {
   width: 300px;
   height: 150px;
 }
 
+.assignment-row {
+  display: flex;
+  margin: 0;
+  height: 300px;
+  background-color: lightsalmon;
+}
+
 /*Typography*/
-.assignmentFont {
-  font-size: 15;
+h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+
+h1 {
+  font-size: 20px;
 }
 
 h2 {
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
+}
+
+.assignmentFont {
+  text-align: center;
+  margin-right: 2%;
+  overflow: auto;
 }
 
 /*Flexbox*/
